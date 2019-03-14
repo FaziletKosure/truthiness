@@ -143,6 +143,10 @@ Paste this in the console to learn about !:
     * [&&, || for the console](https://github.com/janke-learning/boolean-by-example#and-or-operators)
     * [! for the console](https://github.com/janke-learning/boolean-by-example#not)
     * [live in devtools](https://janke-learning.github.io/boolean-by-example/)
+* mdn: 
+    * [boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)  
+    * [truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)  
+    * [falsey](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)  
 
 [TOP](#truthiness)
 
