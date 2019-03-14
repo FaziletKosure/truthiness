@@ -2,7 +2,7 @@
 
 Truthiness is very simple to understand.  Does a value convert to _true_ or _false_ when cast to boolean?
 
-Paste this in the console to learn about truthiness:
+Paste this in the console to learn about truthiness, or study it [on python tutor](https://goo.gl/7tBTj3):
 ```js
 {
   const x = ; // experiment with different values 
@@ -16,10 +16,10 @@ Paste this in the console to learn about truthiness:
 };
 ```
 
-or study it [on python tutor](https://goo.gl/7tBTj3)
+This repo covers 4 important operators who's behavior is dependant on the _truthiness_ of their arguments.
 
 ### Index
-* [ternary operator](#ternary-operator)
+* [() ? : ;](#ternary-operator)
 * [&&](#and-operator)
 * [||](#or-operator)
 * [!](#not-operator)
@@ -110,7 +110,7 @@ Paste this in the console to learn about ||:
 
 The or operator will return the first value if it's truthy, and the second value if the first is falsey.
 
-[pytut link](https://goo.gl/bfcLXg)
+pytut links: [the snippet below](https://goo.gl/bfcLXg), [! expanded](https://goo.gl/79P1iF)  
 
 Paste this in the console to learn about !:
 ```js
@@ -135,11 +135,14 @@ Paste this in the console to learn about !:
 
 ## Resources
 
-from __boolean by example__: 
-* [truthiness for the console](https://github.com/janke-learning/boolean-by-example/blob/master/README.md#truthiness) 
-* [&&, || for the console](https://github.com/janke-learning/boolean-by-example#and-or-operators)
-* [! for the console](https://github.com/janke-learning/boolean-by-example#not)
-* [live in devtools](https://janke-learning.github.io/boolean-by-example/)
+* pytut:
+    * [truthy & falsey values](https://goo.gl/jBTLFD) 
+    * [&& vs. ||](https://goo.gl/BBXea6)  
+* from __boolean by example__: 
+    * [truthiness for the console](https://github.com/janke-learning/boolean-by-example/blob/master/README.md#truthiness) 
+    * [&&, || for the console](https://github.com/janke-learning/boolean-by-example#and-or-operators)
+    * [! for the console](https://github.com/janke-learning/boolean-by-example#not)
+    * [live in devtools](https://janke-learning.github.io/boolean-by-example/)
 
 [TOP](#truthiness)
 
