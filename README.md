@@ -135,7 +135,7 @@ Paste this in the console to learn about !:
 
 ## Resources
 
-from boolean by example: 
+from __boolean by example__: 
 * [truthiness for the console](https://github.com/janke-learning/boolean-by-example/blob/master/README.md#truthiness) 
 * [&&, || for the console](https://github.com/janke-learning/boolean-by-example#and-or-operators)
 * [! for the console](https://github.com/janke-learning/boolean-by-example#not)
