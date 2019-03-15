@@ -147,6 +147,7 @@ Paste this in the console to learn about !:
     * [boolean](https://developer.mozilla.org/en-US/docs/Glossary/Boolean)  
     * [truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)  
     * [falsey](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)  
+* [a codepen](https://codepen.io/philipwalton/pen/nufrk) 
 
 [TOP](#truthiness)
 
