@@ -14,6 +14,25 @@ Paste this in the console to learn about truthiness, or study it [on python tuto
     console.log("falsey: " + typeof x + ", " + x);
   };
 };
+```  
+values to try:
+```js
+a:true       --> ?
+a:false      --> ?
+a:0          --> ?
+a:1          --> ?
+a:null       --> ?
+a:undefined  --> ?
+a:''         --> ?
+a:' '        --> ?
+a:'tiil'     --> ?
+a:2          --> ?
+a:345        --> ?
+a:NaN        --> ?
+a:Infinity   --> ?
+a:-Infinity  --> ?
+a:-3         --> ?
+a:-0.0       --> ?
 ```
 
 This repo covers 4 important operators who's behavior is dependant on the _truthiness_ of their arguments.
@@ -54,7 +73,28 @@ Paste this in the console to learn about the ternary operator:
   console.log("booleans: " + tern_boolean);
 };
 ```
-Ternary operators can only have two options.
+Ternary operators can only have two options.  
+
+values to try:
+```js
+a:true       --> ?
+a:false      --> ?
+a:0          --> ?
+a:1          --> ?
+a:null       --> ?
+a:undefined  --> ?
+a:''         --> ?
+a:' '        --> ?
+a:'tiil'     --> ?
+a:2          --> ?
+a:345        --> ?
+a:NaN        --> ?
+a:Infinity   --> ?
+a:-Infinity  --> ?
+a:-3         --> ?
+a:-0.0       --> ?
+```
+
 
 [TOP](#truthiness)
 
@@ -64,7 +104,7 @@ Ternary operators can only have two options.
 
 The and operator will return the first value if it's falsey, and the second value if the first is truthy.
 
-[pytut link](https://goo.gl/rKyyV9)
+[pytut link](https://goo.gl/G4mp9N)
 
 Paste this in the console to learn about &&:
 ```js
@@ -82,6 +122,19 @@ Paste this in the console to learn about &&:
   console.log("replication: " + replication);
 };
 ```
+values to try:
+```js
+a:true, b:false      --> ?
+a:false, b:true      --> ?
+a:0, b:1             --> ?
+a:1, b:0             --> ?
+a:null, b:false      --> ?
+a:false, b:null      --> ?
+a:'', b:' '          --> ?
+a:' ', b:''          --> ?
+a:2, b:3             --> ?
+a:3, b:2             --> ?
+```
 
 [TOP](#truthiness)
 
@@ -91,7 +144,7 @@ Paste this in the console to learn about &&:
 
 The or operator will return the first value if it's truthy, and the second value if the first is falsey.
 
-[pytut link](https://goo.gl/Jd3Wtr)
+[pytut link](https://goo.gl/gEztXo)
 
 Paste this in the console to learn about ||:
 ```js
@@ -109,6 +162,19 @@ Paste this in the console to learn about ||:
   console.log("replication: " + replication);
 };
 ```
+values to try:
+```js
+a:true, b:false      --> ?
+a:false, b:true      --> ?
+a:0, b:1             --> ?
+a:1, b:0             --> ?
+a:null, b:false      --> ?
+a:false, b:null      --> ?
+a:'', b:' '          --> ?
+a:' ', b:''          --> ?
+a:2, b:3             --> ?
+a:3, b:2             --> ?
+```
 
 [TOP](#truthiness)
 
@@ -118,7 +184,7 @@ Paste this in the console to learn about ||:
 
 The or operator will return the first value if it's truthy, and the second value if the first is falsey.
 
-pytut links: [the snippet below](https://goo.gl/bfcLXg), [! expanded](https://goo.gl/79P1iF)  
+pytut links: [the snippet below](https://goo.gl/abjq1R), [! expanded](https://goo.gl/ej3y5j)  
 
 Paste this in the console to learn about !:
 ```js
@@ -134,6 +200,25 @@ Paste this in the console to learn about !:
   console.log("with coercion: " + coercion_replication);  
   console.log("with ternary: " + ternary_replication);  
 };
+```  
+values to try:
+```js
+a:true       --> ?
+a:false      --> ?
+a:0          --> ?
+a:1          --> ?
+a:null       --> ?
+a:undefined  --> ?
+a:''         --> ?
+a:' '        --> ?
+a:'tiil'     --> ?
+a:2          --> ?
+a:345        --> ?
+a:NaN        --> ?
+a:Infinity   --> ?
+a:-Infinity  --> ?
+a:-3         --> ?
+a:-0.0       --> ?
 ```
 
 [TOP](#truthiness)
