@@ -17,27 +17,28 @@ Paste this in the console to learn about truthiness, or study it [on python tuto
 ```  
 values to try:
 ```js
-a:true       --> ?
-a:false      --> ?
-a:0          --> ?
-a:1          --> ?
-a:null       --> ?
-a:undefined  --> ?
-a:''         --> ?
-a:' '        --> ?
-a:'tiil'     --> ?
-a:2          --> ?
-a:345        --> ?
-a:NaN        --> ?
-a:Infinity   --> ?
-a:-Infinity  --> ?
-a:-3         --> ?
-a:-0.0       --> ?
+a: true       --> ?
+a: false      --> ?
+a: 0          --> ?
+a: 1           --> ?
+a: null       --> ?
+a: undefined  --> ?
+a: ''         --> ?
+a: ' '        --> ?
+a: 'tiil'     --> ?
+a: 2          --> ?
+a: 345        --> ?
+a: NaN        --> ?
+a: Infinity   --> ?
+a: -Infinity  --> ?
+a: -3         --> ?
+a: -0.0       --> ?
 ```
 
 This repo covers 4 important operators who's behavior is dependant on the _truthiness_ of their arguments.
 
 ### Index
+* [falsey values](#falsey-values)
 * [() ? : ;](#ternary-operator)
 * [&&](#and-operator)
 * [||](#or-operator)
@@ -46,6 +47,46 @@ This repo covers 4 important operators who's behavior is dependant on the _truth
 
 
 ---
+---
+
+## Falsey Values
+
+JavaScript has only 6 falsey primitive values.  All other values are truthy.
+
+[on pytut](https://goo.gl/urDfWG)
+
+```js
+{
+  const a = ;
+  
+  const truthiness = Boolean(a);
+  
+  console.log(typeof a + ", " + a + ", " + truthiness + "y");
+};
+```
+the values:
+```js
+1: false      --> ?
+
+2: null       --> ?
+
+3: undefined  --> ?
+
+4: ''         --> ?
+4: ""         --> ?
+4: ``         --> ?
+
+5: NaN        --> ?
+
+6: 0          --> ?
+6: 0.0        --> ?
+6: +0         --> ?
+6: -0         --> ?
+```
+
+
+[TOP](#truthiness)
+
 ---
 
 ## Ternary Operator
@@ -66,7 +107,7 @@ Paste this in the console to learn about the ternary operator:
   const tern_numbers = (x) ? 1 : 2 ;
   const tern_boolean = (x) ? true : false ;
 
-  console.log("x: " + typeof x + ", " + x + ", ");
+  console.log("x: " + typeof x + ", " + x);
   console.log("coerced: " + coerce_truthiness);
   console.log("ternaried: " + ternary_truthiness);
   console.log("option: " + tern_option);
@@ -78,22 +119,22 @@ Ternary operators can only have two options.
 
 values to try:
 ```js
-a:true       --> ?
-a:false      --> ?
-a:0          --> ?
-a:1          --> ?
-a:null       --> ?
-a:undefined  --> ?
-a:''         --> ?
-a:' '        --> ?
-a:'tiil'     --> ?
-a:2          --> ?
-a:345        --> ?
-a:NaN        --> ?
-a:Infinity   --> ?
-a:-Infinity  --> ?
-a:-3         --> ?
-a:-0.0       --> ?
+a: true       --> ?
+a: false      --> ?
+a: 0          --> ?
+a: 1          --> ?
+a: null       --> ?
+a: undefined  --> ?
+a: ''         --> ?
+a: ' '        --> ?
+a: 'tiil'     --> ?
+a: 2          --> ?
+a: 345        --> ?
+a: NaN        --> ?
+a: Infinity   --> ?
+a: -Infinity  --> ?
+a: -3         --> ?
+a: -0.0       --> ?
 ```
 
 
@@ -125,16 +166,16 @@ Paste this in the console to learn about &&:
 ```
 values to try:
 ```js
-a:true, b:false      --> ?
-a:false, b:true      --> ?
-a:0, b:1             --> ?
-a:1, b:0             --> ?
-a:null, b:false      --> ?
-a:false, b:null      --> ?
-a:'', b:' '          --> ?
-a:' ', b:''          --> ?
-a:2, b:3             --> ?
-a:3, b:2             --> ?
+a: true, b:false      --> ?
+a: false, b:true      --> ?
+a: 0, b:1             --> ?
+a: 1, b:0             --> ?
+a: null, b:false      --> ?
+a: false, b:null      --> ?
+a: '', b:' '          --> ?
+a: ' ', b:''          --> ?
+a: 2, b:3             --> ?
+a: 3, b:2             --> ?
 ```
 
 [TOP](#truthiness)
@@ -165,16 +206,16 @@ Paste this in the console to learn about ||:
 ```
 values to try:
 ```js
-a:true, b:false      --> ?
-a:false, b:true      --> ?
-a:0, b:1             --> ?
-a:1, b:0             --> ?
-a:null, b:false      --> ?
-a:false, b:null      --> ?
-a:'', b:' '          --> ?
-a:' ', b:''          --> ?
-a:2, b:3             --> ?
-a:3, b:2             --> ?
+a: true, b:false      --> ?
+a: false, b:true      --> ?
+a: 0, b:1             --> ?
+a: 1, b:0             --> ?
+a: null, b:false      --> ?
+a: false, b:null      --> ?
+a: '', b:' '          --> ?
+a: ' ', b:''          --> ?
+a: 2, b:3             --> ?
+a: 3, b:2             --> ?
 ```
 
 [TOP](#truthiness)
@@ -204,22 +245,22 @@ Paste this in the console to learn about !:
 ```  
 values to try:
 ```js
-a:true       --> ?
-a:false      --> ?
-a:0          --> ?
-a:1          --> ?
-a:null       --> ?
-a:undefined  --> ?
-a:''         --> ?
-a:' '        --> ?
-a:'tiil'     --> ?
-a:2          --> ?
-a:345        --> ?
-a:NaN        --> ?
-a:Infinity   --> ?
-a:-Infinity  --> ?
-a:-3         --> ?
-a:-0.0       --> ?
+a: true       --> ?
+a: false      --> ?
+a: 0          --> ?
+a: 1          --> ?
+a: null       --> ?
+a: undefined  --> ?
+a: ''         --> ?
+a: ' '        --> ?
+a: 'tiil'     --> ?
+a: 2          --> ?
+a: 345        --> ?
+a: NaN        --> ?
+a: Infinity   --> ?
+a: -Infinity  --> ?
+a: -3         --> ?
+a: -0.0       --> ?
 ```
 
 [TOP](#truthiness)
