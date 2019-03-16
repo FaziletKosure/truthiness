@@ -58,16 +58,17 @@ Paste this in the console to learn about the ternary operator:
 ```js
 { 
   const x = ; // experiment with different values 
-  const tern_value = (x) ? "truthy" : "falsey" ;
 
-  const truthiness_x = Boolean(x);
+  const coerce_truthiness = Boolean(x);
+  const ternary_truthiness = (x) ? "truthy" : "falsey" ;
+  
+  const tern_option = (x) ? "first" : "second" ;
+  const tern_numbers = (x) ? 1 : 2 ;
+  const tern_boolean = (x) ? true : false ;
 
-  const tern_truthiness = (truthiness_x) ? "truthy" : "falsey" ;
-  const tern_option = (truthiness_x) ? "first" : "second" ;
-  const tern_numbers = (truthiness_x) ? 1 : 2 ;
-  const tern_boolean = (truthiness_x) ? true : false ;
-
-  console.log("falsey: " + typeof x + ", " + x);
+  console.log("x: " + typeof x + ", " + x + ", ");
+  console.log("coerced: " + coerce_truthiness);
+  console.log("ternaried: " + ternary_truthiness);
   console.log("option: " + tern_option);
   console.log("numbers: " + tern_numbers);
   console.log("booleans: " + tern_boolean);
@@ -115,8 +116,8 @@ Paste this in the console to learn about &&:
   const and = a && b;
   const replication = (a) ? b : a ;
   
-  console.log("a: " + a + ", " + Boolean(a) + "y");
-  console.log("b: " + b + ", " + Boolean(b) + "y");
+  console.log("a: "+typeof a+", "+a+", "+!!a+"y");
+  console.log("b: "+typeof b+", "+b+", "+!!b+"y");
   
   console.log("and: " + and);
   console.log("replication: " + replication);
@@ -155,8 +156,8 @@ Paste this in the console to learn about ||:
   const or = a || b;
   const replication = (a) ? a : b ;
   
-  console.log("a: " + a + ", " + Boolean(a) + "y");
-  console.log("b: " + b + ", " + Boolean(b) + "y");
+  console.log("a: "+typeof a+", "+a+", "+!!a+"y");
+  console.log("b: "+typeof b+", "+b+", "+!!b+"y");
   
   console.log("or: " + or);
   console.log("replication: " + replication);
@@ -195,7 +196,7 @@ Paste this in the console to learn about !:
   const coercion_replication = !Boolean(a);
   const ternary_replication = (a) ? false : true ;
 
-  console.log("a: " + a + ", " + Boolean(a) + "y");
+  console.log("a: "+typeof a+", "+a+", "+!!a+"y");
   console.log("not operator: " + not);
   console.log("with coercion: " + coercion_replication);  
   console.log("with ternary: " + ternary_replication);  
