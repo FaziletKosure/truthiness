@@ -67,7 +67,7 @@ Paste this in the console to learn about the ternary operator:
   const tern_numbers = (truthiness_x) ? 1 : 2 ;
   const tern_boolean = (truthiness_x) ? true : false ;
 
-  console.log("truthyness: " + tern_truthiness);
+  console.log("falsey: " + typeof x + ", " + x);
   console.log("option: " + tern_option);
   console.log("numbers: " + tern_numbers);
   console.log("booleans: " + tern_boolean);
@@ -227,7 +227,11 @@ a:-0.0       --> ?
 
 ## Resources
 
-* pytut:
+__study tools__:
+* [PythonTutor for JavaScript](http://pythontutor.com/javascript.html#)
+* [the Parsonizer](https://janke-learning.github.io/parsonizer/)
+
+* pytut links:
     * [truthy & falsey values](https://goo.gl/jBTLFD) 
     * [&& vs. ||](https://goo.gl/BBXea6)  
 * [truthiness & comparisons](https://dorey.github.io/JavaScript-Equality-Table/) - click on the "if()" tab for truthiness
