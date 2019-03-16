@@ -74,8 +74,12 @@ Paste this in the console to learn about &&:
 
   const and = a && b;
   const replication = (a) ? b : a ;
-
-  console.assert(and === replication, "JavaScript must be broken");
+  
+  console.log("a: " + a + ", " + Boolean(a) + "y");
+  console.log("b: " + b + ", " + Boolean(b) + "y");
+  
+  console.log("and: " + and);
+  console.log("replication: " + replication);
 };
 ```
 
@@ -97,8 +101,12 @@ Paste this in the console to learn about ||:
 
   const or = a || b;
   const replication = (a) ? a : b ;
-
-  console.assert(or === replication, "JavaScript must be broken");
+  
+  console.log("a: " + a + ", " + Boolean(a) + "y");
+  console.log("b: " + b + ", " + Boolean(b) + "y");
+  
+  console.log("or: " + or);
+  console.log("replication: " + replication);
 };
 ```
 
@@ -118,14 +126,13 @@ Paste this in the console to learn about !:
   const a = ; // experiment with different values 
 
   const not = !a;
-
-  const a_to_boolean = Boolean(a);
-  const coercion_replication = !a_to_boolean;
-
+  const coercion_replication = !Boolean(a);
   const ternary_replication = (a) ? false : true ;
 
-  console.assert(not === coercion_replication, "JavaScript must be broken 1");
-  console.assert(not === coercion_replication, "JavaScript must be broken 2");
+  console.log("a: " + a + ", " + Boolean(a) + "y");
+  console.log("not operator: " + not);
+  console.log("with coercion: " + coercion_replication);  
+  console.log("with ternary: " + ternary_replication);  
 };
 ```
 
