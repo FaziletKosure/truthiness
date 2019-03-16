@@ -273,7 +273,8 @@ __study tools__:
 * [PythonTutor for JavaScript](http://pythontutor.com/javascript.html#)
 * [the Parsonizer](https://janke-learning.github.io/parsonizer/)
 
-* pytut links:
+__helpful links__:
+* pytut snippets:
     * [truthy & falsey values](https://goo.gl/jBTLFD) 
     * [&& vs. ||](https://goo.gl/BBXea6)  
 * [truthiness & comparisons](https://dorey.github.io/JavaScript-Equality-Table/) - click on the "if()" tab for truthiness
