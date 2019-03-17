@@ -278,6 +278,7 @@ __helpful links__:
     * [truthy & falsey values](https://goo.gl/jBTLFD) 
     * [&& vs. ||](https://goo.gl/BBXea6)  
 * [javascript.info](http://javascript.info/logical-operators)  
+* [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 * [truthiness & comparisons](https://dorey.github.io/JavaScript-Equality-Table/) - click on the "if()" tab for truthiness
 * from __boolean by example__: 
     * [truthiness for the console](https://github.com/janke-learning/boolean-by-example/blob/master/README.md#truthiness) 
